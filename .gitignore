@@ -1,0 +1,54 @@
+# Build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Rider settings
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+
+# Database files (optional: ignore if you don't want to commit SQLite DB)
+*.db
+
+# Secrets and sensitive data
+secrets.json
+
+# Dotnet tools
+*.pdb
+
+# Ignore publish output
+publish/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore npm packages (if any frontend is added)
+node_modules/
+
+# Ignore Python cache (if any scripts are added)
+__pycache__/
+
+# Ignore temporary files
+*.tmp
+
+# Do NOT ignore .github (keep workflows, instructions, etc.)
+!.github/
